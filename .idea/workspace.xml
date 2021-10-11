@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3761f5f-8b92-4028-b999-dec65f86cc29" name="Changes" comment="" />
+    <list default="true" id="b3761f5f-8b92-4028-b999-dec65f86cc29" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/itheima_spring_ioc/src/main/java/coom/itheima/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/src/main/java/coom/itheima/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/src/main/java/coom/itheima/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/src/main/java/coom/itheima/demo/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/src/main/java/coom/itheima/demo/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/src/main/java/coom/itheima/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/src/main/java/coom/itheima/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/coom/itheima/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/coom/itheima/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/coom/itheima/demo/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/coom/itheima/demo/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/coom/itheima/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/coom/itheima/service/impl/UserServiceImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +68,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.UserDaoDemo">
+  <component name="RunManager" selected="Application.UserController">
     <configuration name="UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="coom.itheima.demo.UserController" />
       <module name="itheima_spring_ioc" />
@@ -92,8 +103,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserDaoDemo" />
         <item itemvalue="Application.UserController" />
+        <item itemvalue="Application.UserDaoDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -106,12 +117,23 @@
       <option name="presentableId" value="Default" />
       <updated>1633928926876</updated>
       <workItem from="1633928928009" duration="10000" />
-      <workItem from="1633928947591" duration="6804000" />
+      <workItem from="1633928947591" duration="9425000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

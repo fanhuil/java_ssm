@@ -10,7 +10,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class UserController {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext app = new ClassPathXmlApplicationContext("applicationContext.xml");
-        UserService userDao = (UserService) app.getBean("userDao");
-        userDao.save();
+        UserService userService = (UserService) app.getBean("userService");
+        userService.save();
     }
 }
