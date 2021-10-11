@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3761f5f-8b92-4028-b999-dec65f86cc29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/itheima_spring_ioc/src/main/java/coom/itheima/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/src/main/java/coom/itheima/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/src/main/java/coom/itheima/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/src/main/java/coom/itheima/demo/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/src/main/java/coom/itheima/demo/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/src/main/java/coom/itheima/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/src/main/java/coom/itheima/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/coom/itheima/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/coom/itheima/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/coom/itheima/demo/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/coom/itheima/demo/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/coom/itheima/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/coom/itheima/service/impl/UserServiceImpl.class" afterDir="false" />
-    </list>
+    <list default="true" id="b3761f5f-8b92-4028-b999-dec65f86cc29" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -63,12 +52,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="16" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.UserController">
+  <component name="RunManager" selected="JUnit.DataSourceTest.test4">
     <configuration name="UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="coom.itheima.demo.UserController" />
       <module name="itheima_spring_ioc" />
@@ -97,14 +87,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DataSourceTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itheima_spring_ioc_anno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.DataSourceTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSourceTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itheima_spring_ioc_anno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.DataSourceTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSourceTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itheima_spring_ioc_anno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.DataSourceTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.UserDaoDemo" />
       <item itemvalue="Application.UserController" />
+      <item itemvalue="JUnit.DataSourceTest.test1" />
+      <item itemvalue="JUnit.DataSourceTest.test2" />
+      <item itemvalue="JUnit.DataSourceTest.test4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserController" />
+        <item itemvalue="JUnit.DataSourceTest.test4" />
         <item itemvalue="Application.UserDaoDemo" />
+        <item itemvalue="JUnit.DataSourceTest.test2" />
+        <item itemvalue="JUnit.DataSourceTest.test1" />
+        <item itemvalue="Application.UserController" />
       </list>
     </recent_temporary>
   </component>
@@ -118,6 +162,7 @@
       <updated>1633928926876</updated>
       <workItem from="1633928928009" duration="10000" />
       <workItem from="1633928947591" duration="9425000" />
+      <workItem from="1633958984847" duration="3593000" />
     </task>
     <servers />
   </component>
@@ -134,6 +179,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
