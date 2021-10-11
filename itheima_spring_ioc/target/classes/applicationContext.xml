@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    约束：xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    起别名：xmlns="http://www.springframework.org/schema/beans"
+    命名空间：xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+-->
+
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 调用无参构造函数实例化对象 -->
+    <!-- <bean id="userDao" class="coom.itheima.dao.impl.UserDaoImpl" init-method="init" destroy-method="destory"></bean> -->
+    <!-- 调用静态工厂方法实例化对象 -->
+    <!-- <bean id="userDao" class="coom.itheima.factory.StaticFactory" factory-method="getUserDao"></bean> -->
+    <!-- 调用动态工厂方法实例化对象 -->
+    <!-- <bean id="facrory" class="coom.itheima.factory.DynamicFactory"></bean>-->
+    <!-- <bean id="userDao" factory-bean="facrory" factory-method="getUserDao"></bean>-->
+
+
+    <bean id="userDao" class="coom.itheima.dao.impl.UserDaoImpl" init-method="init" destroy-method="destory"></bean>
+    <bean id="userService" class="coom.itheima.service.impl.UserServiceImpl"></bean>
+
+
+</beans>
