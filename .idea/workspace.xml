@@ -10,27 +10,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3761f5f-8b92-4028-b999-dec65f86cc29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/itheima_spring_mvc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/java/com/itheima/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/java/com/itheima/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/java/com/itheima/listener/ContextLoaderListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/java/com/itheima/listener/WebApplicationContextUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/java/com/itheima/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/java/com/itheima/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/java/com/itheima/web/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/webapp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_spring_aop/itheima_spring_aop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_spring_aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_spring_aop/src/main/java/com/itheima/proxy/jdk/Advice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_spring_aop/src/main/java/com/itheima/proxy/jdk/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_spring_aop/src/main/java/com/itheima/proxy/jdk/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_spring_aop/src/main/java/com/itheima/proxy/jdk/TargetInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_spring_ioc/src/main/resources/applicationContext-product.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_spring_ioc/src/main/resources/applicationContext-user.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/webapp/quick2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/webapp/quick3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/webapp/quick4.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/webapp/quick5.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc_anno/itheima_spring_ioc_anno.iml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc_anno/itheima_spring_ioc_anno.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc_anno/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc_anno/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/src/main/java/coom/itheima/demo/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/src/main/java/coom/itheima/demo/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/coom/itheima/demo/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc/target/classes/coom/itheima/demo/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc_anno/src/test/java/com/itheima/config/SpringConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc_anno/src/test/java/com/itheima/config/SpringConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc_anno/src/test/java/com/itheima/test/DataSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc_anno/src/test/java/com/itheima/test/DataSourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc_anno/src/test/java/com/itheima/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc_anno/src/test/java/com/itheima/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc_anno/src/test/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc_anno/src/test/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc_anno/target/test-classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc_anno/target/test-classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_ioc_anno/target/test-classes/com/itheima/test/DataSourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_ioc_anno/target/test-classes/com/itheima/test/DataSourceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/itheima_spring_mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/itheima_spring_mvc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/src/main/java/com/itheima/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/src/main/java/com/itheima/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/java/com/itheima/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/src/main/java/com/itheima/web/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/java/com/itheima/web/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/src/main/webapp/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/webapp/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/target/classes/com/itheima/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/target/classes/com/itheima/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/target/classes/com/itheima/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/target/classes/com/itheima/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/target/classes/com/itheima/web/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/target/classes/com/itheima/web/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/target/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/web/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/web/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/success.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +68,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
         <option value="jsf" />
-        <option value="Jsp File" />
+        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -78,22 +106,30 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="1zLYdxXAHH6eOkvT51balLiQKtH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="16" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/itheima_spring_mvc/src/main/webapp/WEB-INF" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/itheima_spring_mvc/src/main/webapp" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\FHL\Code\Java\IDEA\Spring\itheima_spring_mvc\src\main\webapp" />
+    </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.71">
     <configuration name="UserController (1)" type="Application" factoryName="Application">
@@ -102,6 +138,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.itheima.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coom.itheima.demo.UserController" />
+      <module name="itheima_spring_ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="coom.itheima.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,6 +327,7 @@
     <list>
       <item itemvalue="Application.UserController (1)" />
       <item itemvalue="Application.UserDaoDemo" />
+      <item itemvalue="Application.UserController" />
       <item itemvalue="JUnit.SpringJunitTest.test1" />
       <item itemvalue="JUnit.DataSourceTest.test1" />
       <item itemvalue="JUnit.DataSourceTest.test2" />
@@ -286,6 +336,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserController" />
         <item itemvalue="JUnit.DataSourceTest.test4" />
         <item itemvalue="Application.UserDaoDemo" />
         <item itemvalue="JUnit.DataSourceTest.test2" />
@@ -305,7 +356,9 @@
       <workItem from="1633928947591" duration="9425000" />
       <workItem from="1633958984847" duration="3593000" />
       <workItem from="1634001468307" duration="1047000" />
-      <workItem from="1634005911251" duration="14231000" />
+      <workItem from="1634005911251" duration="16974000" />
+      <workItem from="1634086581982" duration="826000" />
+      <workItem from="1634181873100" duration="15546000" />
     </task>
     <servers />
   </component>
@@ -323,6 +376,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

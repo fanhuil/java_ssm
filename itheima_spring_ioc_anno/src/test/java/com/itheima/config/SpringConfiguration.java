@@ -12,7 +12,7 @@ import java.beans.PropertyVetoException;
  * @date 2021-10-12 13:05
  */
 
-// 标志该类是Spring的核心配置类
+// 标志该类是Spring的核心配置类，主配置文件
 @Configuration
 @ComponentScan("com.itheima")
 @Import({DataSourceConfiguration.class})

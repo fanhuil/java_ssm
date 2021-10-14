@@ -19,17 +19,20 @@ public class DataSourceTest {
 
 
     @Test
-    // 测试spring容器产生书记员对象
+    // 测试spring容器产生数据源对象
     public void test4() throws Exception {
+        // 生成DataSourceBean
         ApplicationContext app = new ClassPathXmlApplicationContext("applicationContext.xml");
         DataSource dataSource = (DataSource) app.getBean("dataSource");
+        // 获取数据源连接
         Connection connection = dataSource.getConnection();
         System.out.println(connection);
+        // 归还数据源连接到连接池
         connection.close();
     }
-    
+
     @Test
-    // 测试手动创建c3p0数据源（加载配置文件）
+    // 测试手动创建c3p0数据源（加载配置文件行使）
     public void test3() throws Exception {
         // 读取配置文件
         ResourceBundle rb = ResourceBundle.getBundle("jdbc");
@@ -47,7 +50,7 @@ public class DataSourceTest {
         System.out.println(connection);
         connection.close();
     }
-    
+
     @Test
     // 测试手动创建druid数据源
     public void test2() throws Exception {

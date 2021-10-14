@@ -5,14 +5,16 @@
 		  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          version="3.0">
 
-<!--    配置SpringMVC的前端控制器-->
+    <!--    配置SpringMVC的前端控制器-->
     <servlet>
         <servlet-name>DispatcherServlet</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <!--        加载spring-mvc.xml配置文件-->
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>classpath:spring-mvc.xml</param-value>
         </init-param>
+        <!--        服务器加载时创建对象-->
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
@@ -20,20 +22,22 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
-    <!--    全局初始化参数-->
+    <!--    自定义全局初始化参数：applicationContext.xml路径-->
+    <!--    <context-param>-->
+    <!--        <param-name>contextConfigLocation</param-name>-->
+    <!--        <param-value>applicationContext.xml</param-value>-->
+    <!--    </context-param>-->
+    <!--    Spring-web全局初始化参数：applicationContext.xml路径-->
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>classpath:applicationContext.xml</param-value>
     </context-param>
-
-
-
     <!--    配置监听器-->
-    <!--    自定义监听器-->
+    <!--    自定义监听器生成ApplicationContext应用上下文-->
     <!--    <listener>-->
     <!--        <listener-class>com.itheima.listener.ContextLoaderListener</listener-class>-->
     <!--    </listener>-->
-    <!--    Spring生成Context上下文-->
+    <!--    Spring生成ApplicationContext应用上下文-->
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>

@@ -40,4 +40,7 @@
     <!--注入数据：引用数据类型-->
     <!--注入数据：集合数据类型-->
 
+    <!-- 引入其它的分文件内容-->
+    <!-- <import resource="applicationContext-user.xml"></import>-->
+    <!-- <import resource="applicationContext-product.xml"></import>-->
 </beans>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/itheima_spring_aop/itheima_spring_aop.iml" filepath="$PROJECT_DIR$/itheima_spring_aop/itheima_spring_aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/itheima_spring_ioc/itheima_spring_ioc.iml" filepath="$PROJECT_DIR$/itheima_spring_ioc/itheima_spring_ioc.iml" />
       <module fileurl="file://$PROJECT_DIR$/itheima_spring_ioc_anno/itheima_spring_ioc_anno.iml" filepath="$PROJECT_DIR$/itheima_spring_ioc_anno/itheima_spring_ioc_anno.iml" />
       <module fileurl="file://$PROJECT_DIR$/itheima_spring_mvc/itheima_spring_mvc.iml" filepath="$PROJECT_DIR$/itheima_spring_mvc/itheima_spring_mvc.iml" />

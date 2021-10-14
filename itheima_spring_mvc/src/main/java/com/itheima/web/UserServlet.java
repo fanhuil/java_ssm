@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
+ * 这个东西相当于springmvc
  * @author fanhuilin
  * @date 2021-10-12 14:18
  */
@@ -27,6 +28,7 @@ public class UserServlet extends HttpServlet {
 
         // Spring获取app的工具类
         ApplicationContext app = WebApplicationContextUtils.getWebApplicationContext(servletContext);
+
         UserService userService = app.getBean(UserService.class);
         userService.save();
     }
