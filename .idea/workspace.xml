@@ -10,27 +10,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3761f5f-8b92-4028-b999-dec65f86cc29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/itheima_spring_interceptor/itheima_spring_interceptor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_interceptor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_interceptor/src/main/java/com/itheima/controller/TargetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_interceptor/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_interceptor/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_interceptor/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_interceptor/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_interceptor/src/main/webapp/target.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_jdbc/itheima_spring_jdbc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_jdbc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_jdbc/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_spring_jdbc/src/test/java/com/itheima/test/JdbcTemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_dao/itheima_mybatis_dao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_dao/src/main/java/com/itheima/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_dao/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_dao/src/main/java/com/itheima/service/UserDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_dao/src/main/resources/com/itheima/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_dao/src/main/resources/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_mapper/itheima_mybatis_mapper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_mapper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_mapper/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_mapper/src/main/java/com/itheima/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_mapper/src/main/resources/com.itheima.mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_mapper/src/main/resources/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_mapper/src/test/java/com/itheima/test/Mappertest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_quick/itheima_mybatis_quick.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_quick/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_quick/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_quick/src/main/resources/com/itheima/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_quick/src/main/resources/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_quick/src/test/java/com/itheima/test/MyBatisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/target/classes/com/itheima/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/target/classes/com/itheima/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/target/classes/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +44,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="jsf" />
-        <option value="Interface" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,7 +95,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/itheima_spring_mvc/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/itheima_mybatis_mapper/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -100,10 +103,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\FHL\Code\Java\IDEA\Spring\itheima_mybatis_mapper\src\main\resources" />
+      <recent name="F:\FHL\Code\Java\IDEA\Spring\itheima_mybatis_mapper\src\main\resources\com.itheima.mapper" />
+      <recent name="F:\FHL\Code\Java\IDEA\Spring\itheima_mybatis_dao\src\main\resources\com\itheima\mapper" />
+      <recent name="F:\FHL\Code\Java\IDEA\Spring\itheima_mybatis_dao\src\main\resources" />
       <recent name="F:\FHL\Code\Java\IDEA\Spring\itheima_spring_mvc\src\main\webapp" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\FHL\Code\Java\IDEA\Spring\itheima_mybatis_quick\src\main\resources" />
+      <recent name="F:\FHL\Code\Java\IDEA\Spring\itheima_mybatis_quick\src\main\resources\com\itheima\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.domain" />
+    </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.71">
+  <component name="RunManager" selected="Application.UserDemo">
     <configuration name="UserController (1)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.itheima.web.UserController" />
       <module name="itheima_spring_ioc_anno" />
@@ -117,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coom.itheima.demo.UserController" />
-      <module name="itheima_spring_ioc" />
+    <configuration name="UserDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.service.UserDemo" />
+      <module name="itheima_mybatis_dao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coom.itheima.demo.*" />
+          <option name="PATTERN" value="com.itheima.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,23 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="coom.itheima.demo.UserDaoDemo" />
-      <module name="itheima_spring_ioc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="coom.itheima.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataSourceTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="itheima_spring_ioc_anno" />
+    <configuration name="MyBatisTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itheima_mybatis_quick" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.itheima.test.*" />
@@ -154,15 +153,31 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.itheima.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.test.DataSourceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itheima_mybatis_quick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MyBatisTest" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataSourceTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="itheima_spring_ioc_anno" />
+    <configuration name="MyBatisTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itheima_mybatis_quick" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.itheima.test.*" />
@@ -170,15 +185,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.itheima.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.test.DataSourceTest" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcTemplateTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="itheima_spring_jdbc" />
+    <configuration name="MyBatisTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itheima_mybatis_quick" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.itheima.test.*" />
@@ -186,8 +201,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.itheima.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.test.JdbcTemplateTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -205,6 +220,13 @@
       <option name="MAIN_CLASS_NAME" value="com.itheima.test.SpringJunitTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItheimaMybatisDaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itheima_mybatis_dao" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.itheima_mybatis_dao.ItheimaMybatisDaoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -299,21 +321,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.UserController (1)" />
-      <item itemvalue="Application.UserDaoDemo" />
-      <item itemvalue="Application.UserController" />
+      <item itemvalue="Application.UserDemo" />
       <item itemvalue="JUnit.SpringJunitTest.test1" />
-      <item itemvalue="JUnit.DataSourceTest.test2" />
-      <item itemvalue="JUnit.DataSourceTest.test4" />
-      <item itemvalue="JUnit.JdbcTemplateTest.test1" />
+      <item itemvalue="JUnit.MyBatisTest.test1" />
+      <item itemvalue="JUnit.MyBatisTest.test2" />
+      <item itemvalue="JUnit.MyBatisTest.test3" />
+      <item itemvalue="JUnit.MyBatisTest.test4" />
+      <item itemvalue="Spring Boot.ItheimaMybatisDaoApplication" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.71" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JdbcTemplateTest.test1" />
-        <item itemvalue="Application.UserController" />
-        <item itemvalue="JUnit.DataSourceTest.test4" />
-        <item itemvalue="Application.UserDaoDemo" />
-        <item itemvalue="JUnit.DataSourceTest.test2" />
+        <item itemvalue="Application.UserDemo" />
+        <item itemvalue="JUnit.MyBatisTest.test1" />
+        <item itemvalue="JUnit.MyBatisTest.test4" />
+        <item itemvalue="JUnit.MyBatisTest.test3" />
+        <item itemvalue="JUnit.MyBatisTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +354,10 @@
       <workItem from="1634001468307" duration="1047000" />
       <workItem from="1634005911251" duration="16974000" />
       <workItem from="1634086581982" duration="826000" />
-      <workItem from="1634181873100" duration="20061000" />
+      <workItem from="1634181873100" duration="20663000" />
+      <workItem from="1634259166491" duration="2424000" />
+      <workItem from="1634278553440" duration="9650000" />
+      <workItem from="1634290800304" duration="520000" />
     </task>
     <servers />
   </component>

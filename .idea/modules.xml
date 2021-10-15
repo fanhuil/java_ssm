@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/itheima_mybatis_dao/itheima_mybatis_dao.iml" filepath="$PROJECT_DIR$/itheima_mybatis_dao/itheima_mybatis_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itheima_mybatis_mapper/itheima_mybatis_mapper.iml" filepath="$PROJECT_DIR$/itheima_mybatis_mapper/itheima_mybatis_mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itheima_mybatis_quick/itheima_mybatis_quick.iml" filepath="$PROJECT_DIR$/itheima_mybatis_quick/itheima_mybatis_quick.iml" />
       <module fileurl="file://$PROJECT_DIR$/itheima_spring_aop/itheima_spring_aop.iml" filepath="$PROJECT_DIR$/itheima_spring_aop/itheima_spring_aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/itheima_spring_interceptor/itheima_spring_interceptor.iml" filepath="$PROJECT_DIR$/itheima_spring_interceptor/itheima_spring_interceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/itheima_spring_ioc/itheima_spring_ioc.iml" filepath="$PROJECT_DIR$/itheima_spring_ioc/itheima_spring_ioc.iml" />

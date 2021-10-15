@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--   配置typeAliases,为com.itheima.domain.User定义别名为user -->
+    <typeAliases>
+        <typeAlias type="com.itheima.domain.User" alias="user"></typeAlias>
+    </typeAliases>
+    <!--    数据源环境-->
+    <!--
+        其中，事务管理器 (transactionivanager）类型有两种：
+        JDBC：这个配置就是直接使用了JDBC 的提交和回滚设置，它依赖于从数据源得到的连接来管理事务作用域。
+        MANAGED：这个配置几乎没做什么。它从来不提交或回滚一个连接，而是让容器来管理事务的整个生命周期 （比如 JEE
+        应用服务器的上下文)。默认情況下它会关闭连接，然而一些容器井不命望这样，因此需要将 closeConnection 属性设置
+        为 false 来阻止它默认的关闭行为
+
+        其中，数据源 (dataSource)类型有三种：
+        UNPOOLED：这个数据源的实现只是每次被请求时打开和关闭连接。
+        POOLED：这种数据源的实现利用“池”的概念将JDBC 连接对象組织起来。
+        JNDI)：这个数据源的实现是为了能在如EJB 或应用服务器这类容器中使用，容器可以集中或在外部配置数据源，然后放置一
+    个JNDI 上下文的引用。   -->
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"></property>
+                <property name="url" value="jdbc:mysql://localhost:3306/www_backstage_com"></property>
+                <property name="username" value="www_backstage_com"></property>
+                <property name="password" value="www_backstage_com"></property>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--    加载映射文件-->
+    <mappers>
+        <mapper resource="com/itheima/mapper/UserMapper.xml"></mapper>
+    </mappers>
+
+    <!--    加载外部properties-->
+    <!--    使用${}引用-->
+    <!--    <properties resource=""></properties>-->
+
+
+</configuration>
+        <!-- configuration 配置
+        properties属性
+        settings设置
+        typeAliases类型别名
+        typeHandlers类处理器对象
+        objectFactory对象工厂
+        plugins插件
+        environments环境
+            environment环境变量
+                transactionManager事务管理器
+                dataSource数据源
+         databaseIdProvider 数据库厂商标识
+         mappers映射器
+        -->
