@@ -12,6 +12,7 @@
         <module name="itheima_spring_mvc" />
         <module name="itheima_spring_ioc" />
         <module name="itheima_spring_jdbc" />
+        <module name="itheima_ssm" />
         <module name="itheima_spring_aop" />
         <module name="itheima_mybatis_dao" />
         <module name="itheima_mybatis_mapper" />
@@ -27,6 +28,8 @@
       <module name="itheima_spring_ioc_anno" target="8" />
       <module name="itheima_spring_jdbc" target="8" />
       <module name="itheima_spring_mvc" target="8" />
+      <module name="itheima_ssm" target="8" />
+      <module name="xitheima_ssm" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

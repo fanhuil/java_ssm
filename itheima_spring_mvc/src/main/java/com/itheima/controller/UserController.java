@@ -23,8 +23,6 @@ import java.util.Arrays;
 public class UserController {
 
     // 获得集合类型参数1
-
-
     @RequestMapping("quick13")
     @ResponseBody
     public void save13(String[] strs) { // 获得数组类型参数
