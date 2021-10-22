@@ -10,25 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3761f5f-8b92-4028-b999-dec65f86cc29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/itheima_ssm/itheima_ssm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_ssm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_ssm/src/main/java/com/itheima/controller/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_ssm/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_ssm/src/main/java/com/itheima/mapper/AccountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_ssm/src/main/java/com/itheima/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_ssm/src/main/java/com/itheima/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_ssm/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_ssm/src/main/resources/com/itheima/mapper/AccountMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_ssm/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_ssm/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_ssm/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_ssm/src/main/resources/sqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itheima_ssm/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima_mybatis_dao/src/main/java/com/itheima/domain/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc/src/main/java/com/itheima/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_spring_mvc/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +73,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Projcet/yshopmall" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -355,7 +338,9 @@
       <workItem from="1634290800304" duration="947000" />
       <workItem from="1634519404005" duration="19000" />
       <workItem from="1634705818815" duration="2140000" />
-      <workItem from="1634711004752" duration="6360000" />
+      <workItem from="1634711004752" duration="7952000" />
+      <workItem from="1634777603117" duration="3882000" />
+      <workItem from="1634868017865" duration="2489000" />
     </task>
     <servers />
   </component>
